@@ -1,0 +1,48 @@
+# MRI data
+data/
+dataset/
+datasets/
+raw/
+processed/
+OASIS_FREESURFER/
+
+# Medical imaging files
+*.nii
+*.nii.gz
+*.mgz
+*.mgh
+*.dcm
+
+# Large archives
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary results
+*_tmp.*
+temp/
+tmp/
